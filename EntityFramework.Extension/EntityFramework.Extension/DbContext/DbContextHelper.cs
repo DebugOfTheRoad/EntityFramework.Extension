@@ -66,10 +66,11 @@ namespace EntityFramework.Extension
         #endregion
 
         #region Thread
+
         /// <summary>
         /// 线程级 缓存 数据库
         /// </summary>
-        /// <typeparam name="T"></typeparam>
+        /// <typeparam name="TDbContext"></typeparam>
         /// <returns></returns>
         public static TDbContext CurrentDbContext<TDbContext>() where TDbContext : DbContext, new()
         {
