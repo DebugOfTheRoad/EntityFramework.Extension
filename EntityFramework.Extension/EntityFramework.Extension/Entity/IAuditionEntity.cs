@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityFramework.Extension.Entity
 {
-    public interface IAuditionEntity : ICreatorEntity, IModifyEntity, IDeletionEntity
+    public interface IAuditionEntity : ICreatorEntity, IModifyEntity
     {
 
     }

@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace EntityFramework.Extension.Entity
 {
-    public class CreatorEntity<T> : BaseEntity<T>, ICreatorEntity
+    public class CreatorEntity : ICreatorEntity
     {
         public DateTime CreateTime { get; set; }
         public string CreatorId { get; set; }
-    }
-
-    public class CreatorEntity : CreatorEntity<long>
-    {
-
     }
 }

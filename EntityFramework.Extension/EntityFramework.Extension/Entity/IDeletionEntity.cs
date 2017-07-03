@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EntityFramework.Extension.Entity
 {
-    public interface IDeletionEntity : ISoftDelete
+    public interface IDeletionEntity
     {
         DateTime DeletionTime { get; set; }
 
